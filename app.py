@@ -6,7 +6,7 @@ from prediction import get_prediction
 
 
 # Load the model
-model = joblib.load(r'C:/Santhosh/Wild-Blueberry-Yield-prediction-Project/Model/gb_yield_prediction_model.joblib')
+model = joblib.load(r'Model/gb_yield_prediction_model.joblib')
 
 st.set_page_config(page_title="Wild Blueberry Yield Prediction",
                    page_icon="🫐", layout="wide")
